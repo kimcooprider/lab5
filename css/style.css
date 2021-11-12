@@ -1,0 +1,70 @@
+/* * {
+  outline: dotted;
+} */
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(236, 161, 23);
+}
+
+#wrapper {
+
+  background-color: whitesmoke;
+}
+main {
+  
+}
+
+
+
+
+
+ footer a { 
+  background-color: aqua;
+}
+
+section nav {
+  height: 300px;
+  width: 100%;
+  background-color: beige;
+  font-size: 30px;
+}
+
+section ul { 
+  background-color: burlywood;
+}
+
+li {
+  display: inline-block;
+  margin-right: 60px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
